@@ -39,9 +39,10 @@ print(colored("1= Encryption \n2= Decryption\n{Out of loop {1}=0}\n{Out of loop 
 print("  ")
 
 print("  ")
+a44=int(input(colored("Enter Your Encryption or Decryption >! ","yellow")))
 
-while True:		a44=int(input(colored("Enter Your Encryption or Decryption >! ","yellow")))
 
+while True: 
 	if a44==0:
 
 		break
